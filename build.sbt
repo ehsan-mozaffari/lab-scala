@@ -3,6 +3,8 @@ logLevel := Level.Info
 
 val scala3Version = "3.3.1"
 
+resolvers ++= Resolver.sonatypeOssRepos("snapshots")
+
 lazy val root = project
   .in(file("."))
   .settings(
