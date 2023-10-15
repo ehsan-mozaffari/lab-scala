@@ -28,5 +28,5 @@ lazy val root = project
     testFrameworks := Seq(
       lib.test.config.zioTestFramework,
       lib.test.config.munitTestFramework,
-      ),
-  ).enablePlugins(JavaAppPackaging)
+    ),
+  ) //.enablePlugins(JavaAppPackaging)
