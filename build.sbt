@@ -29,4 +29,4 @@ lazy val root = project
       lib.test.config.zioTestFramework,
       lib.test.config.munitTestFramework,
     ),
-  ) //.enablePlugins(JavaAppPackaging)
+  ).enablePlugins(JavaAppPackaging)
