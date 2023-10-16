@@ -8,7 +8,7 @@ resolvers ++= Resolver.sonatypeOssRepos("snapshots")
 lazy val root = project
   .in(file("."))
   .settings(
-    name           := "playground-scala3",
+    name           := "lab-scala3",
     version        := "0.1.0",
     scalaVersion   := scala3Version,
     libraryDependencies ++= Nil ++
