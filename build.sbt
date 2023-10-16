@@ -1,4 +1,5 @@
 import Dependencies._
+
 logLevel := Level.Info
 
 val scala3Version = "3.3.1"
@@ -21,6 +22,7 @@ lazy val root = project
       lib.zio.configTypeSafe ++
       lib.zio.test ++
       lib.test.munit ++
+      lib.test.scalaCheck ++
       lib.test.testContainersScalaPostgresql ++
       lib.db.postgresql ++
       lib.log.logbackClassic ++
@@ -29,4 +31,4 @@ lazy val root = project
       lib.test.config.zioTestFramework,
       lib.test.config.munitTestFramework,
     ),
-  ).enablePlugins(JavaAppPackaging)
+  )//.enablePlugins(JavaAppPackaging)

@@ -41,10 +41,11 @@ object Dependencies {
 
     object test {
       object config { 
-        val zioTestFramework = new TestFramework("zio.test.sbt.ZTestFramework") 
-        val munitTestFramework = new TestFramework("munit.Framework") // If you are using a version of sbt lower than 1.5.0, you will also need to add this
+        val zioTestFramework = TestFrameworks.ZIOTest
+        val munitTestFramework = TestFrameworks.MUnit // If you are using a version of sbt lower than 1.5.0, you will also need to add this
     }
       val munit                         = Seq("org.scalameta" %% "munit" % ver.munit).map(_ % Test)
+      val scalaCheck                         = Seq("org.scalameta" %% "munit-scalacheck" % ver.munit).map(_ % Test)
       val testContainersScalaPostgresql =
         Seq("com.dimafeng" %% "testcontainers-scala-postgresql" % ver.testContainers).map(_ % Test)
     }
