@@ -12,6 +12,9 @@ lazy val root = project
     name           := "lab-scala3",
     version        := "0.1.0",
     scalaVersion   := scala3Version,
+    scalacOptions ++= Seq(
+      "-Yrangepos" // is for munit to show clues
+    ),
     libraryDependencies ++= Nil ++
       lib.zio.core ++
       lib.zio.config ++
@@ -31,4 +34,4 @@ lazy val root = project
       lib.test.config.zioTestFramework,
       lib.test.config.munitTestFramework,
     ),
-  )//.enablePlugins(JavaAppPackaging)
+  ) //.enablePlugins(JavaAppPackaging)
