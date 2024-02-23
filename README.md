@@ -1,6 +1,6 @@
-# lab-scala3
+# lab-scala
 
-This is a Scala 3 project for testing purposes. Mostly the code written in test section to learn more about the language and its libraries.
+This is a Scala 2.13.x and 3 project for testing purposes. Mostly the code written in test section to learn more about the language and its libraries.
 
 Wish you lock!
 

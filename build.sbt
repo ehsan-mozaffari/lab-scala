@@ -3,13 +3,14 @@ import Dependencies._
 logLevel := Level.Info
 
 val scala3Version = "3.3.1"
+val scala2Version = "2.13.8"
 
 resolvers ++= Resolver.sonatypeOssRepos("snapshots")
 
 lazy val root = project
   .in(file("."))
   .settings(
-    name           := "lab-scala3",
+    name           := "lab-scala",
     version        := "0.1.0",
     scalaVersion   := scala3Version,
     scalacOptions ++= Seq(
