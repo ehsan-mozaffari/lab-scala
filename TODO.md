@@ -6,7 +6,7 @@
 * XRAY, Native Test Management tools
 * Add multiple module for each technologies like zio, typelevel and then force dependencies for each library via defining vars for each section.
 * Add publisher to maven to use the library to publish to maven repo and also nexus repository manager.
-* publish custome exception ADP in abstract way and write some handler for other liberaries like Tapir.
+* publish custome exception ADP in abstract way and write some handler for other liberaries like Tapir. and add it to a library for example: a lib called `global-exception` and the other one called `global-exception-tapir` or `global-exception-zio` that handles by zio and you could use the benefits of zio after adding it and for tapir it could be add `global-exception-endpoint` endpoint with doc to handle the exceptions for tapir.
 * Add Abstraction classes on the src main and the learning material in the test section.
 * Add Kafka producer and consumer in Akka Stream, ZIO, and typelevel libraries and publish them to maven.
 * Write some integration tests for Kafka that runs Kafka and run the tests like test-toolkits or even running the real kafka for testing!
