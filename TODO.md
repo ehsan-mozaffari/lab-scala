@@ -12,3 +12,4 @@
 * Write some integration tests for Kafka that runs Kafka and run the tests like test-toolkits or even running the real kafka for testing!
 * See if you could use docs repository in this repo to avoid adding more stuf here.
 * Comments to all of your implemetation as you want this repo as reference.
+* Add scalafix, scalafmt, scala steward and auto version updater in this repo as you want to be in the company and see if you could add them like a sbt plugins to just add it in the `plugins.sbt`
