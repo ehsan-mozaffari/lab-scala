@@ -10,3 +10,4 @@
 * Add Abstraction classes on the src main and the learning material in the test section.
 * Add Kafka producer and consumer in Akka Stream, ZIO, and typelevel libraries and publish them to maven.
 * Write some integration tests for Kafka that runs Kafka and run the tests like test-toolkits or even running the real kafka for testing!
+* See if you could use docs repository in this repo to avoid adding more stuf here.
