@@ -11,3 +11,4 @@
 * Add Kafka producer and consumer in Akka Stream, ZIO, and typelevel libraries and publish them to maven.
 * Write some integration tests for Kafka that runs Kafka and run the tests like test-toolkits or even running the real kafka for testing!
 * See if you could use docs repository in this repo to avoid adding more stuf here.
+* Comments to all of your implemetation as you want this repo as reference.
